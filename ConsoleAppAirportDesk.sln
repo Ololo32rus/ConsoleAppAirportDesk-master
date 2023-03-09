@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppAirportDesk", "ConsoleAppAirportDesk\ConsoleAppAirportDesk.csproj", "{363CC546-7B2F-4F15-AD8C-2E75832E72ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{363CC546-7B2F-4F15-AD8C-2E75832E72ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363CC546-7B2F-4F15-AD8C-2E75832E72ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363CC546-7B2F-4F15-AD8C-2E75832E72ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363CC546-7B2F-4F15-AD8C-2E75832E72ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
