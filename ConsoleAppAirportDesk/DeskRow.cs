@@ -15,9 +15,9 @@ namespace ConsoleAppAirportDesk
         private string _terminal;
         private string _status;
 
-        public DeskRow(int id, TimeOnly arrivalTime, string flight, string destination, string terminal, string status)
+        public DeskRow(TimeOnly arrivalTime, string flight, string destination, string terminal, string status)
         {
-            _id = id;
+            _id = 0;
             _arrivalTime = arrivalTime;
             _flight = flight;
             _destination = destination;
@@ -27,7 +27,7 @@ namespace ConsoleAppAirportDesk
 
         public override string ToString()
         {
-            return string.Format("{0,-3}{1,-10}{2,-8}{3, -15}{4, -3}{5, -16}", _id, _arrivalTime, _flight, _destination, _terminal, _status);
+            return string.Format("{0,-3}{1,-14}{2,-8}{3, -17}{4, -9}{5, -16}", _id, _arrivalTime, _flight, _destination, _terminal, _status);
         }
 
         public void ChangeStatus(string status)
@@ -39,6 +39,16 @@ namespace ConsoleAppAirportDesk
         { 
             _terminal = terminal;
         }
-    }
 
+        public void SetId(int id)
+        {
+            _id = id;
+        }
+
+        public string GetTerminal()
+        {
+            return _terminal;
+        }
+
+    }
 }
