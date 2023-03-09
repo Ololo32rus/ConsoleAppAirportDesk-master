@@ -1,3 +1,3 @@
 ﻿using ConsoleAppAirportDesk;
 
-TerminalList.A
+Console.WriteLine("Hello");
